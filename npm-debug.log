@@ -1,0 +1,175 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'git-it' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'git-it', null ]
+5 verbose cache add name=undefined spec="git-it" args=["git-it",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'git-it',
+6 verbose parsed url   path: 'git-it',
+6 verbose parsed url   href: 'git-it' }
+7 silly lockFile d6dba06f-git-it git-it
+8 verbose lock git-it /Users/shaikp/.npm/d6dba06f-git-it.lock
+9 silly lockFile d6dba06f-git-it git-it
+10 silly lockFile d6dba06f-git-it git-it
+11 verbose addNamed [ 'git-it', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 941e117c-git-it git-it@
+14 verbose lock git-it@ /Users/shaikp/.npm/941e117c-git-it.lock
+15 silly addNameRange { name: 'git-it', range: '*', hasData: false }
+16 verbose request where is /git-it
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id e55ceb50bc7479bb
+19 verbose url raw /git-it
+20 verbose url resolving [ 'https://registry.npmjs.org/', './git-it' ]
+21 verbose url resolved https://registry.npmjs.org/git-it
+22 verbose request where is https://registry.npmjs.org/git-it
+23 info trying registry request attempt 1 at 11:52:01
+24 http GET https://registry.npmjs.org/git-it
+25 http 200 https://registry.npmjs.org/git-it
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Wed, 22 Oct 2014 06:22:02 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"6QGW4ISJF2WOEUPUP5LSNAW3Z"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '28248',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1413958921.874048,VS0,VE853',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'git-it', range: '*', hasData: true }
+28 silly addNameRange versions [ 'git-it',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.1.7',
+28 silly addNameRange     '1.1.8',
+28 silly addNameRange     '1.1.9',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.2.3',
+28 silly addNameRange     '1.2.4',
+28 silly addNameRange     '1.3.4',
+28 silly addNameRange     '1.3.5',
+28 silly addNameRange     '1.3.6',
+28 silly addNameRange     '1.3.7',
+28 silly addNameRange     '1.3.8',
+28 silly addNameRange     '1.3.9',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.6.0' ] ]
+29 verbose addNamed [ 'git-it', '1.6.0' ]
+30 verbose addNamed [ '1.6.0', '1.6.0' ]
+31 silly lockFile 3d1fecb7-git-it-1-6-0 git-it@1.6.0
+32 verbose lock git-it@1.6.0 /Users/shaikp/.npm/3d1fecb7-git-it-1-6-0.lock
+33 silly lockFile 4034e930-pmjs-org-git-it-git-it-1-6-0-tgz https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+34 verbose lock https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz /Users/shaikp/.npm/4034e930-pmjs-org-git-it-git-it-1-6-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz',
+35 verbose addRemoteTarball   'b7fd9a8b978540544cbb00de6592d794b0790965' ]
+36 info retry fetch attempt 1 at 11:52:02
+37 verbose fetch to= /var/folders/km/rn31mzxs4tz4ds1xw2_gv0vw0000gn/T/npm-18947-OMdcXz7x/registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+38 http GET https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+39 http 200 https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+40 silly lockFile 4034e930-pmjs-org-git-it-git-it-1-6-0-tgz https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+41 silly lockFile 4034e930-pmjs-org-git-it-git-it-1-6-0-tgz https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz
+42 silly lockFile 3d1fecb7-git-it-1-6-0 git-it@1.6.0
+43 silly lockFile 3d1fecb7-git-it-1-6-0 git-it@1.6.0
+44 silly lockFile 941e117c-git-it git-it@
+45 silly lockFile 941e117c-git-it git-it@
+46 silly resolved [ { name: 'git-it',
+46 silly resolved     version: '1.6.0',
+46 silly resolved     description: 'Terminal app for learning Git and GitHub',
+46 silly resolved     main: 'index.js',
+46 silly resolved     bin: { 'git-it': './git-it.js' },
+46 silly resolved     scripts:
+46 silly resolved      { build: 'node guide/buildpages.js',
+46 silly resolved        'build-zhtw': 'node guide/buildpages.js zhtw',
+46 silly resolved        'copy-guide': 'cp -r ./guide ./.guide',
+46 silly resolved        'git-co': 'git checkout gh-pages && git reset --hard origin/gh-pages',
+46 silly resolved        'paste-guide': 'cp -r ./.guide/* .. && rm -rf ./.guide',
+46 silly resolved        'git-stage': 'npm run copy-guide && npm run git-co && npm run paste-guide',
+46 silly resolved        'git-commit': 'git add -A . && git commit -a -m \'gh-pages update\'',
+46 silly resolved        'git-push': 'git push origin gh-pages --force && git checkout master',
+46 silly resolved        deploy: 'npm run stage && npm run git-commit && npm run git-push' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/jlord/git-it.git' },
+46 silly resolved     author: { name: 'Jessica Lord' },
+46 silly resolved     license: 'BSD-2-Clause',
+46 silly resolved     bugs: { url: 'https://github.com/jlord/git-it/issues' },
+46 silly resolved     dependencies:
+46 silly resolved      { 'concat-stream': '~1.2.1',
+46 silly resolved        ecstatic: '^0.5.4',
+46 silly resolved        'github-oauth': '0.0.4',
+46 silly resolved        glob: '^3.2.11',
+46 silly resolved        handlebars: '^2.0.0-alpha.4',
+46 silly resolved        marked: '^0.3.2',
+46 silly resolved        request: '~2.30.0',
+46 silly resolved        'workshopper-jlord': '^0.0.1',
+46 silly resolved        cheerio: '~0.17.0' },
+46 silly resolved     _id: 'git-it@1.6.0',
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'b7fd9a8b978540544cbb00de6592d794b0790965',
+46 silly resolved        tarball: 'http://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz' },
+46 silly resolved     _from: 'git-it@',
+46 silly resolved     _npmVersion: '1.3.11',
+46 silly resolved     _npmUser: { name: 'jlord', email: 'to.jlord@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: 'b7fd9a8b978540544cbb00de6592d794b0790965',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/git-it/-/git-it-1.6.0.tgz' } ]
+47 info install git-it@1.6.0 into /usr/local/lib
+48 info installOne git-it@1.6.0
+49 verbose lib/node_modules/git-it unbuild
+50 verbose tar unpack /Users/shaikp/.npm/git-it/1.6.0/package.tgz
+51 silly lockFile 0b912876-sr-local-lib-node-modules-git-it tar:///usr/local/lib/node_modules/git-it
+52 verbose lock tar:///usr/local/lib/node_modules/git-it /Users/shaikp/.npm/0b912876-sr-local-lib-node-modules-git-it.lock
+53 silly lockFile d32528d1-ikp-npm-git-it-1-6-0-package-tgz tar:///Users/shaikp/.npm/git-it/1.6.0/package.tgz
+54 verbose lock tar:///Users/shaikp/.npm/git-it/1.6.0/package.tgz /Users/shaikp/.npm/d32528d1-ikp-npm-git-it-1-6-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/git-it'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/git-it']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/git-it',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/git-it',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.4.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "git-it"
+60 error cwd /Users/shaikp/Desktop/samples
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/git-it
+64 error fstream_path /usr/local/lib/node_modules/git-it
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/git-it'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

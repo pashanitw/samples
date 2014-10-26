@@ -1,0 +1,425 @@
+{
+    "name": "ENGLISH US KEYBOARD",
+
+    "META": {
+        "ESC": {
+            "code": "27",
+            "hasShift": false,
+            "main_key": "ESC",
+            "class": "column1_5 with_margin",
+            "isNamed": true
+        },
+        "TAB": {
+            "code": "9",
+            "hasShift": false,
+            "main_key": "=",
+            "shift_key": "backspace"
+        },
+        "BACKSPACE": {
+            "code": "8",
+            "hasShift": false,
+            "main_key": "backspace"
+        },
+        "CAPSLOCK": {
+            "code": "20",
+            "hasShift": false,
+            "main_key": "CAPSLOCK"
+        },
+        "CTRL": {
+            "code": "17",
+            "hasShift": false,
+            "main_key": "CTRL"
+        },
+        "WIN": {
+            "code": "91",
+            "hasShift": false,
+            "main_key": "WIN"
+        },
+        "ALT": {
+            "code": "18",
+            "hasShift": false,
+            "main_key": "ALT"
+        },
+        "ENTER": {
+            "code": "13",
+            "hasShift": false,
+            "main_key": "ENTER"
+        },
+        "SHIFT": {
+            "code": "16",
+            "hasShift": false,
+            "main_key": "SHIFT"
+        },
+        "SPACE": {
+            "code": "32",
+            "hasShift": false,
+            "main_key": "SPACE"
+        }
+    },
+    "SPEC":{
+        "MINUS": {
+            "code": "173",
+            "hasShift": true,
+            "main_key": "-",
+            "shift_key": "_"
+        },
+        "EQUALS": {
+            "code": "61",
+            "hasShift": true,
+            "main_key": "=",
+            "shift_key": "+"
+        },
+
+
+        "LEFT_BRACKET": {
+            "code": "219",
+            "hasShift": true,
+            "main_key": "[",
+            "shift_key": "{"
+
+
+        },
+        "BACKSLASH": {
+            "code": "220",
+            "hasShift": true,
+            "main_key": "\\",
+            "shift_key": "|"
+        },
+        "RIGHT_BRACKET": {
+            "code": "221",
+            "hasShift": true,
+            "main_key": "]",
+            "shift_key": "}"
+        },
+        "SEMICOLON": {
+            "code": "59",
+            "hasShift": true,
+            "main_key": ";",
+            "shift_key": ":"
+        },
+        "APOSTROPHE": {
+            "code": "222",
+            "hasShift": true,
+            "main_key": ";",
+            "shift_key": ":"
+        },
+        "COMMA": {
+            "code": "188",
+            "hasShift": true,
+            "main_key": ",",
+            "shift_key": "<"
+        },
+        "PERIOD": {
+            "code": "190",
+            "hasShift": true,
+            "main_key": ".",
+            "shift_key": ">"
+        },
+        "TILDE": {
+            "code": "192",
+            "hasShift": true,
+            "main_key": "`",
+            "shift_key": "~"
+        },
+        "SLASH": {
+            "code": "191",
+            "hasShift": true,
+            "main_key": "/",
+            "shift_key": "?"
+        }
+    },
+    "FUNCTION_KEYS": {
+        "F1": {
+            "code": "112",
+            "hasShift": false,
+            "main_key": "F1",
+            "isNamed":true
+        },
+        "F2": {
+            "code": "113",
+            "hasShift": false,
+            "main_key": "F2",
+            "isNamed":true
+        },
+        "F3": {
+            "code": "114",
+            "hasShift": false,
+            "main_key": "F3",
+            "isNamed":true
+        },
+        "F4": {
+            "code": "115",
+            "hasShift": false,
+            "main_key": "F4",
+            "isNamed":true
+        },
+        "F5": {
+            "code": "116",
+            "hasShift": false,
+            "main_key": "F5",
+            "isNamed":true
+        },
+        "F6": {
+            "code": "117",
+            "hasShift": false,
+            "main_key": "F6",
+            "isNamed":true
+        },
+        "F7": {
+            "code": "118",
+            "hasShift": false,
+            "main_key": "F7",
+            "isNamed":true
+        },
+        "F8": {
+            "code": "119",
+            "hasShift": false,
+            "main_key": "F8",
+            "isNamed":true
+        },
+        "F9": {
+            "code": "120",
+            "hasShift": false,
+            "main_key": "F9",
+            "isNamed":true
+        },
+        "F10": {
+            "code": "121",
+            "hasShift": false,
+            "main_key": "F10",
+            "isNamed":true
+        },
+        "F11": {
+            "code": "122",
+            "hasShift": false,
+            "main_key": "F11",
+            "isNamed":true
+        },
+        "F12": {
+            "code": "123",
+            "hasShift": false,
+            "main_key": "F12",
+            "isNamed":true
+        }
+
+    },
+    "NUM_KEYS": {
+        "DIGIT_1": {
+            "code": "49",
+            "hasShift": true,
+            "main_key": "1",
+            "shift_key": "~"
+        },
+        "DIGIT_2": {
+            "code": "50",
+            "hasShift": true,
+            "main_key": "2",
+            "shift_key": "@"
+        },
+        "DIGIT_3": {
+            "code": "51",
+            "hasShift": true,
+            "main_key": "3",
+            "shift_key": "#"
+        },
+        "DIGIT_4": {
+            "code": "52",
+            "hasShift": true,
+            "main_key": "4",
+            "shift_key": "$"
+        },
+        "DIGIT_5": {
+            "code": "53",
+            "hasShift": true,
+            "main_key": "5",
+            "shift_key": "%"
+        },
+        "DIGIT_6": {
+            "code": "54",
+            "hasShift": true,
+            "main_key": "6",
+            "shift_key": "^"
+        },
+        "DIGIT_7": {
+            "code": "55",
+            "hasShift": true,
+            "main_key": "5",
+            "shift_key": "%"
+        },
+        "DIGIT_8": {
+            "code": "56",
+            "hasShift": true,
+            "main_key": "8",
+            "shift_key": "*"
+        },
+        "DIGIT_9": {
+            "code": "57",
+            "hasShift": true,
+            "main_key": "9",
+            "shift_key": "("
+        },
+        "DIGIT_0": {
+            "code": "58",
+            "hasShift": true,
+            "main_key": "0",
+            "shift_key": ")"
+        }
+    },
+    "ALPHA_KEYS": {
+        "ALPHA_A": {
+            "code": "65",
+            "hasShift": false,
+            "main_key": "A"
+        },
+        "ALPHA_B": {
+            "code": "66",
+            "hasShift": false,
+            "main_key": "B"
+        },
+        "ALPHA_C": {
+            "code": "67",
+            "hasShift": false,
+            "main_key": "C"
+        },
+        "ALPHA_D": {
+            "code": "68",
+            "hasShift": false,
+            "main_key": "D"
+        },
+        "ALPHA_E": {
+            "code": "69",
+            "hasShift": false,
+            "main_key": "E"
+        },
+        "ALPHA_F": {
+            "code": "70",
+            "hasShift": false,
+            "main_key": "F"
+        },
+        "ALPHA_G": {
+            "code": "71",
+            "hasShift": false,
+            "main_key": "G"
+        },
+        "ALPHA_H": {
+            "code": "72",
+            "hasShift": false,
+            "main_key": "H"
+        },
+        "ALPHA_I": {
+            "code": "73",
+            "hasShift": false,
+            "main_key": "I"
+        },
+        "ALPHA_J": {
+            "code": "74",
+            "hasShift": false,
+            "main_key": "J"
+        },
+        "ALPHA_K": {
+            "code": "75",
+            "hasShift": false,
+            "main_key": "K"
+        },
+        "ALPHA_L": {
+            "code": "76",
+            "hasShift": false,
+            "main_key": "L"
+        },
+        "ALPHA_M": {
+            "code": "77",
+            "hasShift": false,
+            "main_key": "M"
+        },
+        "ALPHA_N": {
+            "code": "78",
+            "hasShift": false,
+            "main_key": "N"
+        },
+        "ALPHA_O": {
+            "code": "79",
+            "hasShift": false,
+            "main_key": "O"
+        },
+        "ALPHA_P": {
+            "code": "80",
+            "hasShift": false,
+            "main_key": "P"
+        },
+        "ALPHA_Q": {
+            "code": "81",
+            "hasShift": false,
+            "main_key": "Q"
+        },
+        "ALPHA_R": {
+            "code": "82",
+            "hasShift": false,
+            "main_key": "R"
+        },
+        "ALPHA_S": {
+            "code": "83",
+            "hasShift": false,
+            "main_key": "S"
+        },
+        "ALPHA_T": {
+            "code": "84",
+            "hasShift": false,
+            "main_key": "T"
+        },
+        "ALPHA_U": {
+            "code": "85",
+            "hasShift": false,
+            "main_key": "U"
+        },
+        "ALPHA_V": {
+            "code": "86",
+            "hasShift": false,
+            "main_key": "V"
+        },
+        "ALPHA_W": {
+            "code": "87",
+            "hasShift": false,
+            "main_key": "W"
+        },
+
+        "ALPHA_X": {
+            "code": "88",
+            "hasShift": false,
+            "main_key": "X"
+        },
+        "ALPHA_Y": {
+            "code": "89",
+            "hasShift": false,
+            "main_key": "Y"
+        },
+        "ALPHA_Z": {
+            "code": "90",
+            "hasShift": false,
+            "main_key": "Z"
+        }
+    },
+    "ARROW_KEYS": {
+        "LEFT_ARROW": {
+            "code": "37",
+            "hasShift": false,
+            "main_key": "&#8592;"
+        },
+        "UP_ARROW": {
+            "code": "38",
+            "hasShift": false,
+            "main_key": "&#8592;"
+        },
+        "RIGHT_ARROW": {
+            "code": "39",
+            "hasShift": false,
+            "main_key": "&#8594;"
+        },
+        "DOWN_ARROW": {
+            "code": "40",
+            "hasShift": false,
+            "main_key": "&#8594;"
+        }
+    }
+
+
+}

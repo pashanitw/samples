@@ -1,0 +1,41 @@
+.handle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid white;
+    line-height: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.track{
+    width: 70px;
+    height: 31px;
+    background-color: lightgrey;
+    border-radius: 14px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2px;
+    border: 2px solid lightgrey;
+    transition-property: background-color,border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.toggle{
+    position: absolute;
+    margin: 1px;
+}
+.toggle .check{
+    display: none;
+}
+.toggle .check:checked + .track{
+    background-color: blue;
+    border-color: blue;
+}
+.toggle .check:checked + .track .handle{
+    transform: translate(38px,0);
+}
